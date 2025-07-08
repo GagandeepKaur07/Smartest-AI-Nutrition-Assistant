@@ -56,6 +56,38 @@ Smartest-AI-Nutrition-Assistant/
 
 ---
 
+## 🎯 Future Enhancements
+🧬 Integration of BMI and health parameter inputs
+
+📸 Image-based food recognition
+
+📊 Data storage and user progress tracking
+
+📱 Deployment as a mobile app
+
+🌐 Multilingual chatbot responses
+
+---
+
+## 📜 License
+This project is licensed under the MIT License.
+Feel free to use, modify, and distribute it for educational and non-commercial purposes.
+
+---
+
+## 🙌 Acknowledgements
+DGT, Ministry of Skill Development and Entrepreneurship (MSDE), India
+
+Microsoft for providing cloud & AI services
+
+Edunet Foundation for organizing and supporting the AIPA course
+
+All mentors and instructors who guided us during the course
+
+"Fuel your health with intelligence. Let AI serve your plate with purpose."
+
+---
+
 ## 🔧 How to Run Locally
 
 1. **Clone the Repository**
@@ -71,28 +103,3 @@ OPENROUTER_API_KEY=your_openrouter_api_key_here
 
 streamlit run app.py
 
----
-## 🎯 Future Enhancements
-🧬 Integration of BMI and health parameter inputs
-
-📸 Image-based food recognition
-
-📊 Data storage and user progress tracking
-
-📱 Deployment as a mobile app
-
-🌐 Multilingual chatbot responses
-
----
-## 📜 License
-This project is licensed under the MIT License.
-Feel free to use, modify, and distribute it for educational and non-commercial purposes.
----
-## 🙌 Acknowledgements
-DGT, Ministry of Skill Development and Entrepreneurship (MSDE), India
-
-Microsoft for providing cloud & AI services
-
-Edunet Foundation for organizing and supporting the AIPA course
-
-All mentors and instructors who guided us during the course
