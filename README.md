@@ -47,11 +47,11 @@ The goal of this project is to create a smart, user-friendly chatbot that provid
 Smartest-AI-Nutrition-Assistant/
 │
 ├── app.py # Main Streamlit app
-├── requirements.txt # Python dependencies
-├── .env # API key (not pushed to GitHub)
-├── assets/ # Image and media files
-├── utils/ # Helper functions (if applicable)
-└── README.md # Project documentation
+├── requirements.txt 
+├── .env # API key 
+├── assets
+├── utils
+└── README.md 
 
 
 ---
