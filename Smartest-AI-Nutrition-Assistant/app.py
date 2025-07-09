@@ -51,7 +51,7 @@ def set_background(image_file):
 
 
 # Call the new function
-set_background_url()
+# set_background_url()
 
 set_background('background.jpg')  
 # CSS
