@@ -1,6 +1,7 @@
-streamlit
 python 3.12
 pandas
+Openrouter API
+streamlit
 requests
 python-dotenv
-Openrouter API
+openai
