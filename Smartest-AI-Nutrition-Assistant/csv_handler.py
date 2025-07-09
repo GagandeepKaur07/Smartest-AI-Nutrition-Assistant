@@ -3,8 +3,7 @@ import os
 
 # Function to save user response to a CSV file
 def save_user_response(name, age, goal, diet, allergies, user_input, response):
-    csv_file_path = 'Smartest-AI-Nutrition-Assistant
-/user_responses.csv'
+    csv_file_path = 'Smartest-AI-Nutrition-Assistant/user_responses.csv'
     
     file_exists = os.path.isfile(csv_file_path)
     
