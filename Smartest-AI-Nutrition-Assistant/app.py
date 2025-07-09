@@ -6,7 +6,7 @@ from streamlit_chat import message
 import base64  
 
 # Load Dataset 
-nutrition_df = load_nutrition_data(Smartest-AI-Nutrition-Assistant/preprocessed_healthy_diet_recipes.csv)
+nutrition_df = load_nutrition_data("Smartest-AI-Nutrition-Assistant/preprocessed_healthy_diet_recipes.csv")
 
 # Page Settings 
 # def set_background(image_file):
