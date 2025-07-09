@@ -1,8 +1,7 @@
 import pandas as pd
 
 # preprocessed dataset
-def load_nutrition_data(file_path='Smartest-AI-Nutrition-Assistant
-/preprocessed_healthy_diet_recipes.csv'):
+def load_nutrition_data(file_path='Smartest-AI-Nutrition-Assistant/preprocessed_healthy_diet_recipes.csv'):
     return pd.read_csv(file_path)
 
 # Function to get nutrition information
