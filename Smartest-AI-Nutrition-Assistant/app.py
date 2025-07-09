@@ -87,7 +87,7 @@ st.markdown("""
 # Sidebar
 with st.sidebar:
     st.header(" Your Profile")
-    st.image('Icon.png', width=150)  
+    st.image('Smartest-AI-Nutrition-Assistant/Icon.png', width=150)  
     
     with st.expander("Personal Details", expanded=True):
         name = st.text_input("Name:")
