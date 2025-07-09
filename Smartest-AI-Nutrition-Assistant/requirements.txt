@@ -1,0 +1,6 @@
+streamlit
+python 3.12
+pandas
+requests
+python-dotenv
+Openrouter API
