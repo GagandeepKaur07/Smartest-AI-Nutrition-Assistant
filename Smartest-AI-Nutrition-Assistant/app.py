@@ -27,7 +27,7 @@ nutrition_df = load_nutrition_data("Smartest-AI-Nutrition-Assistant/preprocessed
 #         </style>
 #     """
 #     st.markdown(style, unsafe_allow_html=True)
-def set_background(image_file):
+'''def set_background(image_file):
     with open(image_file, "rb") as f:
         img_data = f.read()
     b64_encoded = base64.b64encode(img_data).decode()
@@ -47,8 +47,31 @@ def set_background(image_file):
         }}
         </style>
     """
-    st.markdown(style, unsafe_allow_html=True)
+    st.markdown(style, unsafe_allow_html=True)'''
 
+def set_background_url():
+    st.markdown(
+        f"""
+        <style>
+        .stApp {{
+            background-image: url("https://images.unsplash.com/photo-1605296867304-46d5465a13f1");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: rgba(255, 255, 255, 0.5);
+            background-blend-mode: overlay;
+        }}
+        body, .stApp, .stMarkdown, .css-18e3th9, .css-1d391kg, .stTextInput, .stSelectbox, .stMultiselect, .stNumberInput, .stRadio {{
+            color: black !important;
+        }}
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+# Call the new function
+set_background_url()
 
 set_background('background.jpg')  
 # CSS
