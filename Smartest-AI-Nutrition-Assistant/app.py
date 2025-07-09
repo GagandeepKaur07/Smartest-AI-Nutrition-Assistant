@@ -53,7 +53,7 @@ def set_background(image_file):
 # Call the new function
 # set_background_url()
 
-set_background('background.jpg')  
+set_background('Smartest-AI-Nutrition-Assistant/background.jpg')  
 # CSS
 st.markdown("""
 <style>
